@@ -1,0 +1,7 @@
+Este documento esta creado en Javascript con nodeJS 
+por el cual es necesario descargar las librerias respectivas
+para su correcto funcionamiento con el codigo npm install
+
+el endpoint con el cual funciona el proyecto es con localhost:3000/login
+
+

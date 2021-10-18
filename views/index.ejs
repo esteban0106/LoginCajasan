@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recordar Contraseña</title>
+    <link rel="stylesheet" type="text/css" href="resource/css/style.css">
+</head>
+
+<body>
+    <h1>Recordar Contraseña</h1>
+    <h2>Recordaremos la contraseña
+    </h2>
+    <form action="/correo" method="POST">
+        <label for="rol">Rol de usuario</label>
+        <select name="rol" id="rol" class="rolUsuario">
+            <option value="admin">Administrador</option>
+            <option value="cliente">Cliente</option>
+        </select>
+        <label for="usuario">Usuario</label>
+        <input type="text" name="usuario" required>
+        <label for="email">Correo Electronico</label>
+        <input type="text" name="email" required>
+        <div style="display: inline;">
+            <a href="/login" class="btnregresar">Regresar</a>
+            <input type="submit" class="btnenviar" value="Enviar">
+        </div>
+    </form>
+</body>
+
+</html>
